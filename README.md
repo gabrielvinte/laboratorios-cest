@@ -33,7 +33,7 @@ Para executar o projeto localmente:
 ### 1️⃣ Clone o repositório
 
 ```bash
-git clone https://URL-DO-SEU-REPOSITORIO-AQUI
+git clone https://github.com/gabrielvinte/laboratorios-cest
 ```
 
 ### 2️⃣ Acesse a pasta do projeto
