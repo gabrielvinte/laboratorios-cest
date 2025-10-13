@@ -80,13 +80,13 @@ A funcionalidade de destaque automático da seção atual foi implementada com a
 
 Fluxo resumido:
 
-Cada seção (Hero, EscritorioEscola, etc.) é registrada com um ref.
+- Cada seção (Hero, EscritorioEscola, etc.) é registrada com um ref.
 
-O App.js utiliza o IntersectionObserver para detectar qual seção está visível no viewport.
+- App.js utiliza o IntersectionObserver para detectar qual seção está visível no viewport.
 
-Quando uma seção entra na “zona de ativação”, o estado activeSection é atualizado.
+- Quando uma seção entra na “zona de ativação”, o estado activeSection é atualizado.
 
-O componente SideNav.jsx recebe esse estado e realça a bolinha correspondente.
+- O componente SideNav.jsx recebe esse estado e realça a bolinha correspondente.
 
 ✅ Isso garante uma navegação fluida, leve e sincronizada com o movimento do usuário.
 
