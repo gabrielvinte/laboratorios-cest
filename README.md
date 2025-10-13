@@ -120,10 +120,6 @@ Caso seja necessário incluir um novo laboratório:
 
 ### 🔮 Próximas Melhorias Visadas
 
-🌙 Adicionar modo escuro (dark mode).
-
-🎞️ Inserir animações suaves com Framer Motion.
-
 📱 Melhorar a experiência mobile (ajuste de espaçamentos e fontes).
 
 🧠 Integrar a página com dados reais dos projetos e laboratórios.
