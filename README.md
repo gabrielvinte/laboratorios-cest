@@ -30,6 +30,18 @@ O projeto utiliza um conjunto de tecnologias modernas para garantir desempenho e
 
 Para executar o projeto localmente:
 
+### 0️⃣ Instale o Node.js
+
+Antes de tudo, certifique-se de ter o Node.js instalado na sua máquina (versão LTS recomendada).
+Você pode baixar em: https://nodejs.org/
+
+Para verificar se o Node está instalado, rode no terminal:
+
+```bash
+node -v
+npm -v
+```
+
 ### 1️⃣ Clone o repositório
 
 ```bash
