@@ -5,6 +5,7 @@ import EscritorioEscola from "./components/EscritorioEscola";
 import Robotica from "./components/Robotica";
 import SideNav from "./components/SideNav";
 import Dados from "./components/Dados";
+import Footer from "./components/Footer";
 
 function App() {
   const [activeSection, setActiveSection] = useState("hero");
@@ -86,6 +87,7 @@ function App() {
         <Robotica ref={roboticaRef} id="robotica" />
         <Dados ref={dadosRef} id="dados"/>
       </main>
+      <Footer/>
     </div>
   );
 }

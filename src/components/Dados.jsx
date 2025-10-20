@@ -14,16 +14,16 @@ import dadosImage from "../assets/images/Dados.jpeg";
 
 function DadosRender({id}, ref){
     return(
-        <section ref={ref} id={id}>
+        <section ref={ref} id={id} className="sessao" >
             <div>
                 <h1>
-                    <span>Da<strong color="blue">dos</strong></span>
+                    <span>Da<strong>dos</strong></span>
                 </h1>
             </div>
 
             <div>
                 <div>
-                    <img src={dadosImage} alt="" />
+                    <img src={dadosImage} alt="pessoa programando"/>
                 </div>
                 <div>
                     <p>
