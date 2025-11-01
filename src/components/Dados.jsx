@@ -14,25 +14,20 @@ import dadosImage from "../assets/images/Dados.jpeg";
 
 function DadosRender({id}, ref){
     return(
-        <section ref={ref} id={id} className="sessao" >
+        <section ref={ref} id={id} className="" >
             <div>
                 <h1>
                     <span>Da<strong>dos</strong></span>
                 </h1>
+                <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis esse eum dignissimos voluptatum doloremque unde beatae obcaecati? Earum dignissimos, ut, id aperiam quae explicabo totam reiciendis eaque, repellat ratione quisquam.
+                </p>
+                <button>
+                    Conhecer
+                </button>
             </div>
-
             <div>
-                <div>
-                    <img src={dadosImage} alt="pessoa programando"/>
-                </div>
-                <div>
-                    <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis esse eum dignissimos voluptatum doloremque unde beatae obcaecati? Earum dignissimos, ut, id aperiam quae explicabo totam reiciendis eaque, repellat ratione quisquam.
-                    </p>
-                    <button>
-                        Conhecer
-                    </button>
-                </div>
+                <img src={dadosImage} alt="pessoa programando"/>
             </div>
         </section>
     )
