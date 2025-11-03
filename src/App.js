@@ -6,6 +6,7 @@ import Robotica from "./components/Robotica";
 import SideNav from "./components/SideNav";
 import Dados from "./components/Dados";
 import Footer from "./components/Footer";
+import IA from "./components/IA";
 
 function App() {
   const [activeSection, setActiveSection] = useState("hero");
@@ -14,6 +15,7 @@ function App() {
   const escritorioRef = useRef(null);
   const roboticaRef = useRef(null);
   const dadosRef = useRef(null);
+  const iaRef = useRef(null);
 
   // Organiza as seções da página.
   const sections = [
@@ -21,6 +23,7 @@ function App() {
     { id: "escritorio", ref: escritorioRef },
     { id: "robotica", ref: roboticaRef },
     { id: "dados", ref: dadosRef },
+    { id: "ia", ref: iaRef}
   ];
 
   // Efeito que roda uma vez para configurar o observador do scroll.
@@ -87,6 +90,7 @@ function App() {
         <Robotica ref={roboticaRef} id="robotica" />
         <Dados ref={dadosRef} id="dados"/>
       </main>
+      <IA ref={iaRef} id="ia"/>
       <Footer/>
     </div>
   );
