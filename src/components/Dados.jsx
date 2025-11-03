@@ -3,7 +3,7 @@ import dadosImage from "../assets/images/Dados.jpeg";
 
 
 /**
- * Renderiza a seção "Robótica" da página.
+ * Renderiza a seção "Dados" da página.
  * Possui um layout responsivo que se adapta a diferentes tamanhos de tela.
  *
  * @param {{id: string}} props As propriedades do componente.
