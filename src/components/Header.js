@@ -15,7 +15,7 @@ const Header = () => {
         <nav className="hidden md:flex items-center space-x-8 font-medium">
           <a href="#escritorio" className="text-white hover:text-gray-300 hover:underline underline-offset-4 transition-all">Escritório</a>
           <a href="#robotica" className="text-white hover:text-gray-300 hover:underline underline-offset-4 transition-all">Robótica</a>
-          <a href="#" className="text-white hover:text-gray-300 hover:underline underline-offset-4 transition-all">Dados</a>
+          <a href="#dados" className="text-white hover:text-gray-300 hover:underline underline-offset-4 transition-all">Dados</a>
           <a href="#" className="text-white hover:text-gray-300 hover:underline underline-offset-4 transition-all">I.A</a>
         </nav>
 
