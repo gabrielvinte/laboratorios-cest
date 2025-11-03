@@ -18,8 +18,8 @@ function DadosRender({id}, ref){
             <div className="container mx-auto">
         {/* Título que aparece apenas em telas pequenas (celular/tablet). */}
         <h1 className="text-4xl md:text-5xl font-bold font-bungee mb-10 text-center lg:hidden">
-          <span className="text-black">ROB</span>
-          <span className="text-blue-900">ÓTICA</span>
+          <span className="text-black">DAD</span>
+          <span className="text-blue-900">OS</span>
         </h1>
 
         <div className="flex lg:flex-row-reverse items-center justify-center gap-x-16 lg:gap-x-[12rem] gap-y-10 lg:gap-y-0">
@@ -27,8 +27,8 @@ function DadosRender({id}, ref){
           <div className="w-full lg:max-w-lg flex flex-col items-center text-center lg:items-start lg:text-left order-2 lg:order-1">
             {/* Título que aparece apenas em telas grandes (monitores). */}
             <h1 className="hidden lg:block text-4xl md:text-5xl font-bold font-bungee mb-4">
-              <span className="text-black">ROB</span>
-              <span className="text-blue-900">ÓTICA</span>
+              <span className="text-black">DAD</span>
+              <span className="text-blue-900">OS</span>
             </h1>
             <p className="text-gray-800 text-lg leading-relaxed mb-8">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
